@@ -68,10 +68,7 @@
 
   <!--HERO SECTION-->
   <section
-  class="bg-[url(./assets/hero-bg.png)] bg-cover bg-center bg-no-repeat
-
-         flex flex-col items-center justify-center lg:gap-3
-           text-center">
+  class="bg-[url(./assets/hero-bg.png)] bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center lg:gap-3 text-center">
 
   <div class="relative w-[200px] sm:w-[230px] md:w-[280px] lg:w-[320px]">
 
@@ -79,16 +76,11 @@
 
     <img
       src="./assets/microphone.png"
-      class="absolute top-1/2 left-1/2
-             w-[45px] sm:w-[55px] md:w-[70px]
-             -translate-x-1/2 -translate-y-1/2"
+      class="absolute top-1/2 left-1/2 w-[45px] sm:w-[55px] md:w-[70px] -translate-x-1/2 -translate-y-1/2"
       alt="">
 
     <span
-      class="absolute top-2 right-2 lg-top-10 lg:right-10
-             bg-green-500 text-black
-             text-[11px] font-bold px-3 py-1 lg:px-5 lg:py-2
-             rounded-full uppercase  animate-ping opacity-75">
+      class="absolute top-2 right-2 lg-top-10 lg:right-10 bg-green-500 text-black text-[11px] font-bold px-3 py-1 lg:px-5 lg:py-2 rounded-full uppercase  animate-ping opacity-75">
       New
     </span>
   </div>
@@ -102,10 +94,10 @@
   </p>
    <div class="py-4 flex  gap-4 justify-center">
       <button class="bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 px-4 py-2 rounded-full font-bold flex items-center justify-center hover:opacity-90 transition">
-        <span class="mr-2">🎧</span> Listen On Spotify
+          <img class="mr-2" src="./assets/spotify.png" alt="">Listen On Spotify
       </button>
       <button class="border border-green-500 text-green-500 px-4 py-2 rounded-full font-bold flex items-center justify-center hover:bg-green-500 hover:text-white transition">
-                    <span class="mr-2">✉️</span> Subscribe
+                    <span class="mr-2"><img src="./assets/message.png" alt=""></span> Subscribe
       </button>
     </div>
 
@@ -208,7 +200,7 @@ and share stories of personal growth from industry leaders.
                     <h3 class="text-xl font-bold mb-3 leading-tight">Mastering Productivity Hacks</h3>
                     <p class="text-gray-400 text-sm mb-6">Learn the top secrets to staying productive and achieving your daily goals faster.</p>
                     <div class="flex items-center text-green-400 text-xs font-bold">
-                        <span class="mr-2 text-base">🕒</span> 42 min
+                        <img class="mr-2 w-3" src="./assets/clock.png" alt=""> 42 min
                     </div>
                 </div>
             </div>
@@ -227,7 +219,7 @@ and share stories of personal growth from industry leaders.
                     <h3 class="text-xl font-bold mb-3 leading-tight">Digital Marketing Strategies</h3>
                     <p class="text-gray-400 text-sm mb-6">A deep dive into the modern marketing world and how to grow your brand online.</p>
                     <div class="flex items-center text-green-400 text-xs font-bold">
-                        <span class="mr-2 text-base">🕒</span> 35 min
+                        <img class="mr-2 w-3" src="./assets/clock.png" alt=""> 35 min
                     </div>
                 </div>
             </div>
@@ -241,7 +233,7 @@ and share stories of personal growth from industry leaders.
                     <h3 class="text-xl font-bold mb-3 leading-tight">UI/UX Design Trends 2026</h3>
                     <p class="text-gray-400 text-sm mb-6">Stay ahead of the curve with the latest trends in user interface and experience design.</p>
                     <div class="flex items-center text-green-400 text-xs font-bold">
-                        <span class="mr-2 text-base">🕒</span> 51 min
+                        <img class="mr-2 w-3" src="./assets/clock.png" alt=""> 51 min
                     </div>
                 </div>
             </div>
@@ -262,11 +254,22 @@ and share stories of personal growth from industry leaders.
         <h3 class="text-xl font-semibold text-center lg:text-left" >Alex Kumar</h3>
         <p class="py-3 text-center lg:text-left">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
         <div class="flex gap-2 justify-center items-center lg:justify-start lg:gap-5">
-          <img class="p-4 rounded-[50%] border-1 border-blue-950" src="./assets/linkedin.png" alt="">
-          <img class="p-4 rounded-[50%] border-1 border-blue-950" src="./assets/x.png" alt="">
-          <img class="p-4 rounded-[50%] border-1 border-blue-950" src="./assets/youtube.png" alt="">
-          <img class="p-4 rounded-[50%] border-1 border-blue-950" src="./assets/instagram.png" alt="">
-        </div>
+  <div class="flex items-center justify-center w-12 h-12 rounded-full border border-blue-900 overflow-hidden">
+    <img class="w-6 h-6 object-contain" src="./assets/linkedin.png" alt="LinkedIn">
+  </div>
+
+  <div class="flex items-center justify-center w-12 h-12 rounded-full border border-blue-900 overflow-hidden">
+    <img class="w-5 h-5 object-contain" src="./assets/x.png" alt="X">
+  </div>
+
+  <div class="flex items-center justify-center w-12 h-12 rounded-full border border-blue-900 overflow-hidden">
+    <img class="w-6 h-6 object-contain" src="./assets/youtube.png" alt="Youtube">
+  </div>
+
+  <div class="flex items-center justify-center w-12 h-12 rounded-full border border-blue-900 overflow-hidden">
+    <img class="w-6 h-6 object-contain" src="./assets/instagram.png" alt="Instagram">
+  </div>
+</div>
       </div>
     </div>
 
@@ -308,3 +311,4 @@ and share stories of personal growth from industry leaders.
 </body>
 </html>
 max-w-[280px]
+<span class="mr-2">🎧</span>
